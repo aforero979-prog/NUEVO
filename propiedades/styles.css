@@ -1,0 +1,33 @@
+
+body{background-color: black;} /*modifica el color de fondo*/
+
+h1{
+
+
+    /* esto modifica el texto en eje x */
+    text-align: center;
+    color: blue;
+
+}
+
+
+
+
+p{
+
+    color:rgb(101, 3, 192); /*modifica el color*/
+    font-size: 18px; /*modifica el tamaño*/
+    font-weight: bold; /*modifica la negrilla*/
+    font-family: "Saira"; /*modifica la fuente*/
+    font-style: oblique; /*estilo cursiva */
+
+    text-align: justify; /*modifica el texto en eje x*/
+    text-decoration: none; /*le  agrega linea para resaltar*/
+    text-transform: uppercase; /*modifica el texto mayúsculas*/
+    text-shadow: 3px 3px 1px aqua;/*genera sombras, 1er px eje x, 2do px eje y y 3er px el sombreado*/
+    line-height: 20px; /*espacio entre lineas*/
+    letter-spacing: 5px;
+
+
+
+}
