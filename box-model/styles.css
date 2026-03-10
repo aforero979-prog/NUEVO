@@ -1,8 +1,9 @@
 
 body{
 
-    margin: 0;
-    padding: 
+    margin: 50px; /*margen de la página*/
+    padding: 50px;
+    text-align: center;
 }
 
 
@@ -14,11 +15,11 @@ padding: 20px; /*espacio interno del box*/
 margin: 10px 0px 10px 10px; /*margen arriba, abajo, derecha, izquierda*/
                             /*si solo se ponen 2 px, uno es arriba y abajo y el seguno de derecha e izquierda*/
 border: 5px solid red; /*es el borde, px: el grosor, solid: tipo de linea y color*/
-width: 200px;
-height: 200px;
-border-radius: 10px 0px;
-line-height: 200%;  
-text-align: center;
+width: 200px; /*el tamaño del box*/
+height: 200px; /*el tamaño del box*/
+border-radius: 10px 0px; /*para hacer redondo bordes o box*/
+line-height: 1200% ; /*mover el texto para ubicarlo horizontal en el box*/
+text-align: center; /*para centrar el texto*/
 
 
 

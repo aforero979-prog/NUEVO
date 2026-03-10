@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif.;
+
+
+}
+
+
+.receta{
+
+     background-color: red;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.receta-1{
+
+    background-color: red;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.receta-2{
+
+    background-color: blue;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.receta-3 {
+
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+
+.receta-4{
+
+    background-color: aquamarine;
+}
+
+
+ul {
+
+    list-style: none; /*para quitar los puntos de la lista*/
+
+}
+
+.container{
+
+    background-color: antiquewhite;
+    padding: 15px;
+    
+}
