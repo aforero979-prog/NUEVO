@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(18, 16, 16);
+}
+
+h1 {
+
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 50px rgb(199, 54, 199);
+  
+
+
+}
+
+
+.container {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 4rem 5rem;
+    justify-content: center;
+
+}
+
+.img {
+
+     filter: opacity(100%);
+
+}
+
+
+    .img:hover {
+
+        /* filter: opacity(50%); */
+     }
+
+    img {
+
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        border: 5px solid rgb(208, 60, 208);
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px rgb(199, 54, 199);
+
+    }
+
+    img:hover {
+    
+        transform: scale(1.1);
+        filter: saturate(40%);
+        transition: .5s;
+    
+    }
