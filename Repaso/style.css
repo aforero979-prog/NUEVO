@@ -8,7 +8,7 @@
 
 body {
 
-    background-color: rgb(101, 53, 53)
+    background-color: rgb(30, 25, 25)
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 }
 
 h1 {
-    margin: 1rem;
+    margin: .5rem;
 }
 
 span {
@@ -51,17 +51,17 @@ a {
     font-weight: bold;
 }
 
+/* ---------------------------------------------------------- */
+
+
 main {
     background-color: beige;
 }
 
-
-
-H2{
-    margin: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
+div{
+    background-color: rgb(193, 121, 133);
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
