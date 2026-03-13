@@ -16,29 +16,52 @@ body {
 html {
 
     font-size: 62.5%;
-    
+
 }
 
-h1 {
+li{
+
     margin: .5rem;
+    padding: .5rem;
+    border: .2rem solid rgb(76, 62, 62);
+
+}
+
+li:hover{
+
+transform: scale(1.1)
+
+}
+
+/* ------------------------------------------------------------ */
+
+h1 {
+
+    margin: .5rem;
+    background-color: bisque;
+
 }
 
 span {
+
     font-weight: bold;
     text-transform: uppercase;
+
 }
 
 header>nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
-    background-color: beige;
+    background-color: rgb(78, 146, 188);
     color: black;
-    
+
 }
 
 nav>ul {
+
     display: flex;
     list-style: none;
     gap: 1.5rem;
@@ -52,26 +75,51 @@ a {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
-    
+
 }
 
 /* ---------------------------------------------------------- */
 
 
 main {
-    background-color: bisque;
+
+    background-color: rgb(24, 22, 22);
+
 }
 
-.card{
+h1{
 
-    background-color: rgb(204, 129, 142);
+     padding: 2rem;
+     color: purple;
+
+}
+
+.card {
+
+    background-color: rgb(153, 90, 153);
     margin: 2rem;
     padding: 2rem;
     border: .2rem solid rgb(76, 62, 62);
     border-radius: 1rem 0;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 40rem;
     text-align: justify;
-    
+    box-shadow: 0rem 0rem 2rem rgb(182, 76, 182);
+    color: rgb(255, 255, 255);
 }
 
+.titulo {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* ----------------------------------------------------------------- */
+
+footer{
+
+    background-color:  rgb(78, 146, 188);
+    text-align: center;
+   
+}
