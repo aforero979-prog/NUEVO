@@ -57,5 +57,7 @@ h1 {
         transform: scale(1.1);
         filter: saturate(40%);
         transition: .5s;
-    
+        filter: opacity(50%)
+        filter: drop-shadow(50%)
+
     }

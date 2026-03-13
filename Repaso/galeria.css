@@ -1,0 +1,64 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: rgb(223, 12, 202);
+    font-size: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(30, 25, 25);
+}
+
+html {
+
+    font-size: 62.5%;
+    flex-wrap: wrap;
+
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: beige;
+    color: black;
+
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img{
+    gap: 2rem;
+    width: 30rem;
+    height: 30rem;
+    border: .2rem solid rgb(184, 28, 184);
+    object-fit: contain;
+}
