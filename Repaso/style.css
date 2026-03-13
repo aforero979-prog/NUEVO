@@ -6,15 +6,17 @@
 
 }
 
+
 body {
 
     background-color: rgb(30, 25, 25)
+
 }
 
 html {
 
     font-size: 62.5%;
-
+    
 }
 
 h1 {
@@ -26,7 +28,6 @@ span {
     text-transform: uppercase;
 }
 
-
 header>nav {
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@ header>nav {
     padding: 1rem 5rem;
     background-color: beige;
     color: black;
-
+    
 }
 
 nav>ul {
@@ -42,26 +43,35 @@ nav>ul {
     list-style: none;
     gap: 1.5rem;
     color: black;
+
 }
 
 a {
+
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
 /* ---------------------------------------------------------- */
 
 
 main {
-    background-color: beige;
+    background-color: bisque;
 }
 
-div{
-    background-color: rgb(193, 121, 133);
-    margin: 20px;
-    padding: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
+.card{
+
+    background-color: rgb(204, 129, 142);
+    margin: 2rem;
+    padding: 2rem;
+    border: .2rem solid rgb(76, 62, 62);
+    border-radius: 1rem 0;
+    flex-wrap: wrap;
+    width: 20rem;
+    text-align: justify;
+    
 }
+
