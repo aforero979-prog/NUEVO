@@ -6,6 +6,17 @@
 
 }
 
+@media (screen 650px ){
+
+.logo{
+
+margin: 0;
+
+}
+    
+}
+
+
 h1{
     color: rgb(223, 12, 202);
     font-size: bold;
@@ -25,16 +36,14 @@ html {
 
 }
 
-.social{
- 
-    display: flex;
-    justify-content: space-between;
-        
-}
+
 
 .logo {
 
+    display: flex;
     font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -56,6 +65,15 @@ nav>ul {
     gap: 1.5rem;
     color: black;
 }
+
+
+.social{
+ 
+    display: flex;
+    justify-content: space-between;
+        
+}
+
 
 a {
     text-decoration: none;

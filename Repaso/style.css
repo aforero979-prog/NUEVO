@@ -6,6 +6,20 @@
 
 }
 
+.icon-social{
+
+width: 5rem;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 146, 188);
+
+}
 
 body {
 
@@ -30,7 +44,7 @@ li{
 li:hover{
 
 transform: scale(1.1)
-filter: 
+
 
 }
 
@@ -49,6 +63,14 @@ span {
     text-transform: uppercase;
 
 }
+
+.Logo {
+
+    width: 5rem;
+
+}
+
+
 
 header>nav {
 
@@ -69,6 +91,14 @@ nav>ul {
     color: black;
 
 }
+
+.social{
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 
 a {
 
