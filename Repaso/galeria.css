@@ -25,9 +25,17 @@ html {
 
 }
 
-span {
+.social{
+ 
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.logo {
+
     font-weight: bold;
-    text-transform: uppercase;
+
 }
 
 
@@ -35,12 +43,11 @@ header>nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     background-color: rgb(113, 8, 155);
     color: black;
     box-shadow: 0rem 0rem 2rem rgb(0, 0, 0);
    
-
 }
 
 nav>ul {
