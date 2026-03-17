@@ -6,15 +6,7 @@
 
 }
 
-@media (screen 650px ){
 
-.logo{
-
-margin: 0;
-
-}
-    
-}
 
 
 h1{
@@ -92,6 +84,7 @@ img{
     box-shadow: 0rem 0rem 2rem purple;
     gap: 8rem;
     background-color: black;
+    object-fit: cover;
 
 }
 
