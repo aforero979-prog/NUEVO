@@ -6,15 +6,25 @@
 
 }
 
+header{
+
+    
+
+}
 
 
 
 h1{
-    color: rgb(223, 12, 202);
+
+    color: black;
     font-size: bold;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    background-color: bisque;
+    width: 100%;
+    margin: 5rem;
+    
 }
 
 body{
@@ -36,11 +46,14 @@ html {
     font-weight: bold;
     justify-content: space-between;
     align-items: center;
+    width: 5rem;
+    height: 5rem;
 
 }
 
 
 header>nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,11 +64,25 @@ header>nav {
    
 }
 
+
 nav>ul {
     display: flex;
     list-style: none;
     gap: 1.5rem;
     color: black;
+
+}
+
+li{ 
+
+    transition: .3s;
+
+}
+
+li:hover{
+
+    transform: scale(1.1);
+
 }
 
 
@@ -63,6 +90,9 @@ nav>ul {
  
     display: flex;
     justify-content: space-between;
+    width: 5rem;
+    height: 5rem;
+    gap: .5rem;
         
 }
 
