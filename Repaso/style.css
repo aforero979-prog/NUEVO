@@ -28,6 +28,8 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(78, 146, 188);
+    position: fixed;
+    width: 100%;
 
 }
 
@@ -128,19 +130,20 @@ a {
 main {
 
     background-color: rgb(24, 22, 22);
+    margin-top: 5.5rem;
 
 }
 
 h1{
 
      padding: 2rem;
-     color: purple;
+     color: black;
 
 }
 
 .card {
 
-    background-color: rgb(153, 90, 153);
+    background-color: rgb(52, 100, 131);
     margin: 2rem;
     padding: 2rem;
     border: .2rem solid rgb(76, 62, 62);
@@ -150,6 +153,9 @@ h1{
     text-align: justify;
     box-shadow: 0rem 0rem 2rem rgb(182, 76, 182);
     color: rgb(255, 255, 255);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Saira"; 
+    
 }
 
 
@@ -157,16 +163,8 @@ h1{
 
     display: flex;
     justify-content: center;
-
-
-}
-
-
-.titulo {
-
-    display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 /* ----------------------------------------------------------------- */

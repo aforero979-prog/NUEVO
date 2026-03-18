@@ -12,3 +12,10 @@ html {
     font-size: 63.5%;
 
 }
+
+
+position: absolut; /* no ocupa espacio en el html, se empieza a mover en cualquier lado de la página*/
+position: relative; /* ocupa espacio en el html (si se mueve, sus epacio permanece en su posicion inical), se mueve desde un punto especifico (dentro de una etiqueta) en html */
+positiom: fixed; /* siempre va a permaneces en la posición establecida, asi se mueva la pagina arriba o abajo (como los iconos de wa en las páginas), se comporta como absolut */
+position: sticky; /* actua como el fixed pero se puede determinar desde donde se queda en la posición establecida, uno baja la pagina y desde cierto punto se queda pegado */
+z-index: 1; /* para posicionar en el eje z, por si toca sobreponer sobre otro, entre el numero se mayor (numero esnteros) mas arriba estará */

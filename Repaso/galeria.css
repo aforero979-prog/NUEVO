@@ -45,7 +45,7 @@ header>nav {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5rem;
-    background-color: rgb(113, 8, 155);
+    background-color: rgb(78, 146, 188);
     color: black;
     box-shadow: 0rem 0rem 2rem rgb(0, 0, 0);
    
@@ -74,6 +74,15 @@ a {
     font-weight: bold;
 }
 
+main{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem;
+
+}
+
 img{
     gap: 2rem;
     width: 30rem;
@@ -85,12 +94,36 @@ img{
     gap: 8rem;
     background-color: black;
     object-fit: cover;
-
+    opacity: 0.6;
+   
+    
 }
 
 img:hover{
 
     transform: scale(1.1);
     transition: .5s;
+    opacity: 1;
 
+}
+
+.foto{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 2rem;
+transition: .2s;
+
+}
+
+
+footer{
+
+ background-color: rgb(78, 146, 188);
+ text-align: center;
+ padding: 2rem; 
+ font-size: larger;
+ margin-top: auto;
+   
 }
