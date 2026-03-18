@@ -6,15 +6,18 @@
 
 }
 
-header{
+.barra{
 
-    
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
 
 }
 
 
 
-h1{
+h1 {
 
     color: black;
     font-size: bold;
@@ -23,11 +26,11 @@ h1{
     font-weight: bold;
     background-color: bisque;
     width: 100%;
-    margin: 5rem;
-    
+    margin: 2rem;
+
 }
 
-body{
+body {
     background-color: rgb(30, 25, 25);
 }
 
@@ -61,7 +64,8 @@ header>nav {
     background-color: rgb(78, 146, 188);
     color: black;
     box-shadow: 0rem 0rem 2rem rgb(0, 0, 0);
-   
+    
+
 }
 
 
@@ -73,27 +77,27 @@ nav>ul {
 
 }
 
-li{ 
+li {
 
     transition: .3s;
 
 }
 
-li:hover{
+li:hover {
 
     transform: scale(1.1);
 
 }
 
 
-.social{
- 
+.social {
+
     display: flex;
     justify-content: space-between;
     width: 5rem;
     height: 5rem;
     gap: .5rem;
-        
+
 }
 
 
@@ -104,16 +108,19 @@ a {
     font-weight: bold;
 }
 
-main{
+
+main {
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 5rem;
+    /* margin: 5rem; */
+    /* margin-top: 5rem; */
 
 }
 
-img{
+.gta {
+
     gap: 2rem;
     width: 30rem;
     height: 30rem;
@@ -125,11 +132,11 @@ img{
     background-color: black;
     object-fit: cover;
     opacity: 0.6;
-   
-    
+
+
 }
 
-img:hover{
+.gta:hover {
 
     transform: scale(1.1);
     transition: .5s;
@@ -137,23 +144,23 @@ img:hover{
 
 }
 
-.foto{
+.foto {
 
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 2rem;
-transition: .2s;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    transition: .2s;
 
 }
 
 
-footer{
+footer {
 
- background-color: rgb(78, 146, 188);
- text-align: center;
- padding: 2rem; 
- font-size: larger;
- margin-top: auto;
-   
+    background-color: rgb(78, 146, 188);
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    margin-top: auto;
+
 }
