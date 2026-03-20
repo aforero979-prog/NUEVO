@@ -7,9 +7,22 @@
 html {
     font-size: 62.5%;
     flex-wrap: wrap;
-    background: linear-gradient(180deg,rgba(110, 8, 8, 1) 0%, rgba(84, 26, 26, 1) 28%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(110, 8, 8, 1) 0%, rgba(84, 26, 26, 1) 28%, rgba(0, 0, 0, 1) 100%);
     background-attachment: fixed;
 
+}
+
+section {
+    width: 40rem;
+    /* background-color: aqua; */
+
+}
+
+@media (width-max: 48rem) {
+
+    section {
+        width: 96%;
+    }
 }
 
 header {
@@ -17,19 +30,22 @@ header {
     display: flex;
     background-color: rgba(0, 0, 0, 0);
     align-items: center;
-    padding: 5rem;
+    padding: 3rem;
+    border-bottom: .1rem solid gray;
 
 
 }
 
 .netflix_logo {
 
-    width: 25rem;
-    height: 7rem;
+    width: 14.8rem;
+    height: 4rem;
     /* margin-left: 20rem; */
     justify-content: space-between;
 
 }
+
+/* @media(){} */
 
 h1 {
 
@@ -40,13 +56,15 @@ h1 {
 
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    
 
-    text-align: center;
+
+    /* text-align: center; */
     color: white;
+    margin: 1rem;
+
 
 
 }
@@ -60,22 +78,39 @@ h2 {
 
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    margin: 2rem;
-    text-align: center;
+    margin: 1rem;
+    /* text-align: center; */
     color: gray;
 
 
 }
 
-form {
-
-    tex
-
-
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
 }
+
+
+
+
+input {
+
+    display: flex;
+    background-color: rgba(34, 32, 32, 0.625);
+    margin: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 10rem 1rem 10rem;
+    color: white;
+    text-align: center;
+    
+}
+
 
 .continuar {
 
@@ -84,10 +119,9 @@ form {
     text-align: center;
     background-color: red;
     margin: 2rem;
-    border-radius: 10%;
-    padding: 1rem 10rem 1rem 10rem 
-
-    }
+    border-radius: .5rem;
+    padding: 1rem 10rem 1rem 10rem
+}
 
 p {
 
@@ -95,12 +129,14 @@ p {
 
     text-align: center;
     font-weight: bold;
+    width: 400px;
     text-align: justify;
+    margin: 1rem;
 
     color: rgb(105, 105, 105);
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 
@@ -111,11 +147,9 @@ p {
 
 }
 
-main{
+main {
 
     margin-left: 20rem;
     margin-right: 20rem;
 
 }
-
-
