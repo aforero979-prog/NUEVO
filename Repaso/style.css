@@ -12,10 +12,10 @@ html {
 
 }
 
-/* @media (){} */
+@media () {}
 
 
-.icon-social{
+.icon-social{ 
 
 width: 3rem;
 align-items: center;
