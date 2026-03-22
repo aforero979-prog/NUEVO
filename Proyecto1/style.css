@@ -9,20 +9,20 @@
 html {
 
     font-size: 62.5%;
-    flex-wrap: wrap;
 
 }
 
 header {
 
-    display: flex;
+
     padding: 1rem;
     background-color: rgba(85, 85, 85, 0.434);
-    text-align: center;
-    list-style: none;
     border: .1rem solid black;
 
+
 }
+
+
 
 img {
 
@@ -35,16 +35,61 @@ img {
     display: flex;
     list-style: none;
     gap: 1rem;
-    text-align: end;
+    text-align: center;
     color: black;
+    align-items: center;
 
 
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
 
 a {
 
     text-decoration: none;
     color: black;
+    flex-wrap: wrap;
 
 
 }
+
+/* ----------------------------------------------------------------------------- */
+
+main{
+
+    padding: 10rem;    
+    background-color: rgba(208, 194, 194, 0.768);
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    main{
+     padding: 5rem;
+    }
+    header{
+        padding: .5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main{
+        padding: 2.5rem;
+    }
+    header{
+        padding: .1rem;
+    }
+    
+}
+

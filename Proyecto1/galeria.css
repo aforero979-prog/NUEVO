@@ -15,11 +15,8 @@ html{
 
 header{
     
-    display: flex;
     padding: 1rem ;
     background-color: rgba(85, 85, 85, 0.434);
-    text-align: center;
-    list-style: none;
     border: .1rem solid black;
     
 }
@@ -37,6 +34,7 @@ img{
     gap: 1rem;
     text-align: end;
     color: black;
+    align-items: center;
 
 
 }
@@ -48,26 +46,76 @@ a{
  
 }
 
+nav{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
 /* ------------------------------------------------------------------------------- */
 
 main{
     
     display: flex;
-    padding: 2rem;    
-    align-items: center;
+    padding: 10rem;    
+    background-color: rgba(208, 194, 194, 0.768);
+    justify-content: center;
+    
+}
 
+@media (max-width: 700px) {
+    main{
+     padding: 5rem;
+    }
+    header{
+        padding: .5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main{
+        padding: 2.5rem;
+    }
+    header{
+        padding: .1rem;
+    }
+    
 }
 
 .gta{
    
    width: 20rem;
    height: 20rem;
+   border: .5rem solid black;
+   box-shadow: 0rem 0rem 2rem black;
    object-fit: cover;
    border-radius: 1rem 1rem 1rem 1rem;
+   
    
 }
 
 .foto{
 
+   flex-wrap: wrap;
    text-align: center;
+   display: flex;
+   gap: 2rem;
+   justify-content: center ;
+   
+}
+
+@media (max-width: 1060px) {
+    .gta{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 713px){
+    .gta{
+        width: 30rem;
+        height: 30rem;
+    }
 }

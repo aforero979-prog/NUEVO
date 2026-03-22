@@ -15,11 +15,8 @@ html{
 
 header{
     
-    display: flex;
     padding: 1rem ;
     background-color: rgba(85, 85, 85, 0.434);
-    text-align: center;
-    list-style: none;
     border: .1rem solid black;
     
 }
@@ -37,6 +34,7 @@ img{
     gap: 1rem;
     text-align: end;
     color: black;
+    align-items: center;
 
 
 }
@@ -45,6 +43,43 @@ a{
     
     text-decoration: none; 
     color: black;
+     
+}
+
+nav{
+
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+@media (max-width: 700px) {
+    main{
+     padding: 5rem;
+    }
+    header{
+        padding: .5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main{
+        padding: 2.5rem;
+    }
+    header{
+        padding: .1rem;
+    }
     
- 
+}
+
+/* --------------------------------------------------------------------------- */
+
+main{
+
+    display: flex;
+    padding: 10rem;    
+    background-color: rgba(208, 194, 194, 0.768);
+    justify-content: center;
+    
 }
