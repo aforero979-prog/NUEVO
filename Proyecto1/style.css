@@ -19,7 +19,6 @@ header {
     background-color: rgba(85, 85, 85, 0.434);
     border: .1rem solid black;
 
-
 }
 
 
@@ -55,6 +54,8 @@ a {
     text-decoration: none;
     color: black;
     flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: large;
 
 
 }
@@ -63,16 +64,37 @@ a {
 
 main{
 
-    padding: 10rem;    
+    padding: 5rem;    
     background-color: rgba(208, 194, 194, 0.768);
+    text-align: justify;
+    min-height: 100vh;
     
 }
 
+h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
 
+}
 
+h2{
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: underline;
 
+}
 
+.ht{
 
+    margin-top: 4rem;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+}
 
 @media (max-width: 700px) {
     main{
@@ -80,6 +102,9 @@ main{
     }
     header{
         padding: .5rem;
+    }
+    a{
+        font-size: medium;
     }
 }
 
@@ -90,6 +115,21 @@ main{
     header{
         padding: .1rem;
     }
+    a{
+        font-size: small;
+    }
     
+}
+
+/* ------------------------------------------------------------------------- */
+
+footer{
+
+    background-color:  rgba(85, 85, 85, 0.434);
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    margin-top: auto;
+   
 }
 

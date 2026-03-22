@@ -43,6 +43,8 @@ a{
     
     text-decoration: none; 
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: large;
      
 }
 
@@ -50,6 +52,7 @@ nav{
 
    display: flex;
    justify-content: space-between;
+
 }
 
 
@@ -61,6 +64,9 @@ nav{
     header{
         padding: .5rem;
     }
+    a{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 450px) {
@@ -69,6 +75,9 @@ nav{
     }
     header{
         padding: .1rem;
+    }
+    a{
+        font-size: small;
     }
     
 }
@@ -81,5 +90,18 @@ main{
     padding: 10rem;    
     background-color: rgba(208, 194, 194, 0.768);
     justify-content: center;
+    min-height: 100vh;
+
+}
+
+/* --------------------------------------------------------------------------- */
+
+footer{
+
+    background-color:  rgba(85, 85, 85, 0.434);
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    margin-top: auto;
     
 }
