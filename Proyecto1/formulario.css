@@ -92,7 +92,60 @@ main{
     justify-content: center;
     min-height: 100vh;
 
+    
+
 }
+
+h2{
+
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.formulario{
+/* 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: .1rem solid black;
+    gap: 1rem;
+    align-items: center;
+    text-align: center; */
+
+    background-color: rgba(85, 85, 85, 0.434);
+    padding: 5rem 10rem;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+    
+}
+
+input{
+
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    text-align: center;
+    background-color: rgba(85, 85, 85, 0.434);
+    border-radius: .4rem;
+    margin-bottom: 1.6rem;
+    width: 40rem;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton{
+    
+    background-color: rgba(118, 90, 90, 0.888);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
 /* --------------------------------------------------------------------------- */
 
@@ -103,5 +156,5 @@ footer{
     padding: 2rem;
     font-size: larger;
     margin-top: auto;
-    
+
 }
