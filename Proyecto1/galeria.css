@@ -140,7 +140,6 @@ main{
 .ventana{
 
     width: 60rem;
-    /* width: 100%; */
     height: 55rem;
     background-color: rgba(159, 159, 159, 0.936);
     
@@ -168,6 +167,7 @@ button{
 
     width: 10rem;
     border-radius: 1rem;
+    
 }
 
 p{
@@ -193,7 +193,9 @@ p{
 .comprar{
 
     text-align: center;
-    
+    background-color: rgb(168, 168, 243);
+    margin: 2rem;
+    position: relative;    
     
 }
 
