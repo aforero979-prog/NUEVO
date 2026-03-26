@@ -23,6 +23,8 @@ main{
 
     background-color: antiquewhite;
     padding: 2rem;
+    min-height: 100vh;
+    text-align: justify;
 
 }
 
@@ -43,6 +45,7 @@ h1{
    text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: bold;
+   font-size: 2.5rem;
 
 }
 
@@ -50,19 +53,34 @@ h2{
 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+    font-size: 2rem;
 
 }
 
 p{
 
    font-family: 'Times New Roman', Times, serif;
-
+   font-size: 1.8rem;
 }
+
 footer{
 
     text-align: center;
     background-color: bisque;
     padding: 2rem;
-    
+   
+ }
 
+ .correo{
+
+    padding-bottom: 3rem;
+    text-align: center;
+
+ }
+
+ .telefono{
+
+    padding: .5rem;
+    text-align: center;
  }
